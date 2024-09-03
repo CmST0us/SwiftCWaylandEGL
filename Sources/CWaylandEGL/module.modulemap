@@ -1,0 +1,5 @@
+module CWaylandEGL [system][extern_c] {
+    umbrella header "shims.h"
+    link "wayland-egl"
+    export *
+}
